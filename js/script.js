@@ -11,14 +11,14 @@ function primo(numero){
 
 let primeiro_numero = Number(document.getElementById("primeiro_numero").value);
   if (numero ===  1 || numero === 4 || numero === 6 || numero === 8 || numero === 9 || numero === 10) {
-    return false;
+   false;
   }
 
   if (numero === 2 || numero === 3 || numero === 5 || numero === 7) {
-    return true;
+    true;
   }
 
-  return false;
+   false;
 
 }
 
